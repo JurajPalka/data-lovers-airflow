@@ -1,6 +1,0 @@
-black
-holidays==0.10.5.2
-numpy==1.19.1
-pandas==1.2.0
-python-dotenv==0.15.0
-pytz==2021.1
