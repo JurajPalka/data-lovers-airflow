@@ -6,6 +6,7 @@ variables-stage.json
 variables-prod.json
 create_nano_airflow_users.sh
 *.xlsx
+logs
 
 # Azure Functions
 .python_packages/
