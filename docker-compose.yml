@@ -55,6 +55,9 @@ x-airflow-common:
     - ./logs:/opt/airflow/logs
     - ./plugins:/opt/airflow/plugins
     - ./airflow-data/airflow.cfg:/opt/airlfow/airflow.cfg
+    - .env:/opt/airflow/.env
+  env_file:
+    - .env
   user: "${AIRFLOW_UID:-50000}:${AIRFLOW_GID:-50000}"
   depends_on:
     postgres:
